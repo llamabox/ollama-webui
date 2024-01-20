@@ -216,7 +216,7 @@
 			{#if message.model in modelfiles}
 				{modelfiles[message.model]?.title}
 			{:else}
-				Ollama <span class=" text-gray-500 text-sm font-medium"
+				R-Massimo <span class=" text-gray-500 text-sm font-medium"
 					>{message.model ? ` ${message.model}` : ''}</span
 				>
 			{/if}
