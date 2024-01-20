@@ -36,7 +36,7 @@
 							/>
 						{:else}
 							<img
-								src={models.length === 1 ? '/ollama.png' : 'ollama-dark.png'}
+								src={models.length === 1 ? '/r-massimo-1.png' : 'r-massimo-1.png'}
 								class=" w-20 mb-2 {models.length === 1
 									? 'invert-[10%] dark:invert-[100%]'
 									: 'border-[5px] border-white dark:border-gray-800'}  rounded-full"
@@ -64,7 +64,7 @@
 					</div>
 				{/if}
 			{:else}
-				How can I help you today?
+				Hi, I'm R-Massimo. Let's talk!
 			{/if}
 		</div>
 	</div>
